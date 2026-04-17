@@ -1,0 +1,67 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="cLO#o6K@rkHya-z9Al]E" x="0" y="0"><statement name="HANDLER"><block type="serial_writeline" id="M!`R`r1GTpm,0x0_BY3A"><value name="text"><shadow type="text" id="47UbZ`$01k.}u(oJZ#rv"><field name="TEXT">V2 Microbit 1 loading</field></shadow></value></block></statement></block><block type="device_button_event" id="`ZRD_oTZ1ZQwh|SF_=yE" x="551" y="43"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="Mime_~`gV@sj,)ah(.=%"><value name="text"><shadow type="text" id="]CKYH3:7?_@eswT5DP3+"><field name="TEXT">Dakdabed Pres A to Start</field></shadow></value><next><block type="device_print_message" id="dg+rG?am,oF?)LY(w/[m"><value name="text"><shadow type="text" id="BF^vMq*3eT~a;$xP~V@B"><field name="TEXT">loading......</field></shadow></value><next><block type="device_print_message" id="S5T?3s8[v*{5BYMi`7CP"><value name="text"><shadow type="text" id="Ry7UUo3jF3YZWB8i1B$."><field name="TEXT">restart in 2 sec</field></shadow></value><next><block type="device_show_leds" id="CL;S]G*@lOI8~hm9ve!X"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . #
+        `</field><next><block type="device_print_message" id="R[Q}RU`{M2ZB1%40Lh!9"><value name="text"><shadow type="text" id="7E|SayioB/$MXoT1:|f]"><field name="TEXT">on LOading ples dont tern OFF</field></shadow></value><next><block type="controls_repeat_ext" id="xT4be!qSG2H~hkg2_?eQ"><value name="TIMES"><shadow type="math_whole_number" id="^)JMV|kxnbTNnGEsCwns"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="VpXyd+k{U}]cJcq%v!wB"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id=",CEmV`*0I6zZ0-.Xe]*A"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="?*YjN?tuXDbT}Li_F9=["><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id=":cN23vR#vN2l4dZ8CQ+#"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_print_message" id="auV#ZaBnJCyc3}xeG~n6"><value name="text"><shadow type="text" id="y`91@Ab)rZHZ3{.dR%%#"><field name="TEXT">Off</field></shadow></value><next><block type="serial_writeline" id="kz)I/rVpV4JhIbNox:_n"><value name="text"><shadow type="text" id="GpOQ[9w@8JSvQOn)-IhI"><field name="TEXT">User Deakdbated 1.23.4.5 sck IP6 2601:405:4801:3f60:2d4b:d7f8:f767:744d</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="tc!UxK)^`2Eb9Wjh-z|u" x="-16" y="75"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="serial_writeline" id=")Y)mP@*iey?k)4JJb;?T"><value name="text"><shadow type="text" id="GO.U-$W/2)w`f]`6gaJ6"><field name="TEXT">1: starting micro bit...</field></shadow></value><next><block type="serial_writeline" id="VKuUCmf3]~/d^[%{v2gx"><value name="text"><shadow type="text" id="yWWRXeR7Kw~R.Z1V{S7#"><field name="TEXT">2: Deleteing DETAILS.txt ... jk</field></shadow></value><next><block type="serial_writeline" id="M+fLcWCH]HC[AR0B3a#n"><value name="text"><shadow type="text" id="a,VvTML+(o7BZXJSCz:^"><field name="TEXT">3: lod micro bit...</field></shadow></value><next><block type="serial_writeline" id="WZh5G$IU?d2@_irYZ/Zd"><value name="text"><shadow type="text" id="AJP9LV`nb3HW.HQfCQ.1"><field name="TEXT">4: dun 1.3 sec</field></shadow></value><next><block type="controls_repeat_ext" id="`Az]5Bi(fCq/st}K|sl0"><value name="TIMES"><shadow type="math_whole_number" id="/~6D2%vHz]HPCEB+_5(|"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="B~.MnJV=Wg6]IuVE}E[;"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="sS,MHhl#cVrG;bkqSvHd"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="FV8JN!1FNg3PaNwjd5;{"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="j@bGCa5u~gJNQ4w9i[7r"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="+j!LhpHq1-UAFFJtxaIJ"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="(J~R=x998412qb|S]$UE"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="dataloggerlog" id="B][t|*,_s!5wq(Lin@dq"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="data1"><shadow type="dataloggercreatecolumnvalue" id="qzyy)}p!/:GoLJ9B,x0w"><value name="column"><shadow type="datalogger_columnfield" id="xb.Y5w4eerVQR%JeO|@a"><field name="column">1</field></shadow></value><value name="value"><shadow type="math_number" id="i:}o8ctO:;quekZ-iRyV"><field name="NUM">2</field></shadow></value></shadow></value><value name="data2"><shadow type="dataloggercreatecolumnvalue" id=")Ey/B5V}O,R0L#JOu$6U"><value name="column"><shadow type="datalogger_columnfield" id="t/A3]K%2wzvV(roQIP^Z"><field name="column">2</field></shadow></value><value name="value"><shadow type="math_number" id=":M(VtNRa}^7S|9K.s=^#"><field name="NUM">10</field></shadow></value></shadow></value><value name="data3"><shadow type="dataloggercreatecolumnvalue" id="Jl)beS$s*My}2ZJ(1=o."><value name="column"><shadow type="datalogger_columnfield" id="b%5Sz8:iI!3Q+V;%K]2@"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="MaVs^9:x[mJHBb=_D1cn"><field name="NUM">0</field></shadow></value></shadow></value><value name="data4"><shadow type="dataloggercreatecolumnvalue" id=";awHQr_rqX~}]?]}E%;O"><value name="column"><shadow type="datalogger_columnfield" id=",fSV]F^_hScmbH.jd%LD"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="x6=RL}vQ^R%:O.@PGdKi"><field name="NUM">0</field></shadow></value></shadow></value><value name="data5"><shadow type="dataloggercreatecolumnvalue" id="oIl=U{fclkrc+J.=gf^!"><value name="column"><shadow type="datalogger_columnfield" id=",k(0?bAvJL%+]Xp999Cv"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="hkyVi]`@|!V6GhKg-hz("><field name="NUM">0</field></shadow></value></shadow></value><value name="data6"><shadow type="dataloggercreatecolumnvalue" id="nI*x?/Nps{~f]B+}*$wQ"><value name="column"><shadow type="datalogger_columnfield" id="W#xepO,WJv-)crXN*}(A"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="eNR8}%GsGAFg}yi)MzJE"><field name="NUM">0</field></shadow></value></shadow></value><value name="data7"><shadow type="dataloggercreatecolumnvalue" id="#AGhtSSuE^MYB.;/74vb"><value name="column"><shadow type="datalogger_columnfield" id="_07.O%m9.$/Yb;PzG`I}"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="HX[Pi?-C0j7V?_Q=zTse"><field name="NUM">0</field></shadow></value></shadow></value><value name="data8"><shadow type="dataloggercreatecolumnvalue" id="4k7_k5$?rsabEZV^M{T8"><value name="column"><shadow type="datalogger_columnfield" id=";11GeD2C[#-%$!62jq2."><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id=".eeJnUpCT|;iWbN%rWQ_"><field name="NUM">0</field></shadow></value></shadow></value><value name="data9"><shadow type="dataloggercreatecolumnvalue" id="Q!=Yq:yS:@t_S2NHszD6"><value name="column"><shadow type="datalogger_columnfield" id="Mtu*b:dRt?XF;39xw:Yb"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="3fizdQH.8Tr;5*5z7k=8"><field name="NUM">0</field></shadow></value></shadow></value><value name="data10"><shadow type="dataloggercreatecolumnvalue" id="%KYl.:R:Jqox[SPP06am"><value name="column"><shadow type="datalogger_columnfield" id="n3_c.A35[/81._L6lt-q"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="1/Ve=7rxpP;4X}VH4q/r"><field name="NUM">0</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
